@@ -13,6 +13,11 @@
 		CE425E122859E5AB00F65BB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE425E102859E5AB00F65BB1 /* Main.storyboard */; };
 		CE425E142859E5AF00F65BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE425E132859E5AF00F65BB1 /* Assets.xcassets */; };
 		CE425E172859E5AF00F65BB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE425E152859E5AF00F65BB1 /* LaunchScreen.storyboard */; };
+		CE425E2B285A256000F65BB1 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE425E2A285A256000F65BB1 /* test.mp3 */; };
+		CE425E2D285A25F900F65BB1 /* sia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE425E2C285A25F900F65BB1 /* sia.mp3 */; };
+		CE425E2F285A27C800F65BB1 /* montana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE425E2E285A27C800F65BB1 /* montana.mp3 */; };
+		CE425E31285A282200F65BB1 /* maria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE425E30285A282200F65BB1 /* maria.mp3 */; };
+		CE425E33285A2EE400F65BB1 /*  staizitto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE425E32285A2EE400F65BB1 /*  staizitto.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		CE425E132859E5AF00F65BB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE425E162859E5AF00F65BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE425E182859E5AF00F65BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE425E2A285A256000F65BB1 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
+		CE425E2C285A25F900F65BB1 /* sia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sia.mp3; sourceTree = "<group>"; };
+		CE425E2E285A27C800F65BB1 /* montana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = montana.mp3; sourceTree = "<group>"; };
+		CE425E30285A282200F65BB1 /* maria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maria.mp3; sourceTree = "<group>"; };
+		CE425E32285A2EE400F65BB1 /*  staizitto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " staizitto.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		CE425E092859E5AB00F65BB1 /* produttoreMusica */ = {
 			isa = PBXGroup;
 			children = (
+				CE425E1E2859EB6900F65BB1 /* music */,
 				CE425E0A2859E5AB00F65BB1 /* AppDelegate.swift */,
 				CE425E0C2859E5AB00F65BB1 /* SceneDelegate.swift */,
 				CE425E0E2859E5AB00F65BB1 /* ViewController.swift */,
@@ -65,6 +76,18 @@
 				CE425E182859E5AF00F65BB1 /* Info.plist */,
 			);
 			path = produttoreMusica;
+			sourceTree = "<group>";
+		};
+		CE425E1E2859EB6900F65BB1 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				CE425E2E285A27C800F65BB1 /* montana.mp3 */,
+				CE425E30285A282200F65BB1 /* maria.mp3 */,
+				CE425E2A285A256000F65BB1 /* test.mp3 */,
+				CE425E2C285A25F900F65BB1 /* sia.mp3 */,
+				CE425E32285A2EE400F65BB1 /*  staizitto.mp3 */,
+			);
+			path = music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +149,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE425E172859E5AF00F65BB1 /* LaunchScreen.storyboard in Resources */,
+				CE425E2B285A256000F65BB1 /* test.mp3 in Resources */,
 				CE425E142859E5AF00F65BB1 /* Assets.xcassets in Resources */,
 				CE425E122859E5AB00F65BB1 /* Main.storyboard in Resources */,
+				CE425E2D285A25F900F65BB1 /* sia.mp3 in Resources */,
+				CE425E31285A282200F65BB1 /* maria.mp3 in Resources */,
+				CE425E2F285A27C800F65BB1 /* montana.mp3 in Resources */,
+				CE425E33285A2EE400F65BB1 /*  staizitto.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
