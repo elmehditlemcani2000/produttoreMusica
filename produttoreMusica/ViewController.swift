@@ -39,6 +39,38 @@ class ViewController: UIViewController {
         player.stop()
     }
     
+   
+    
+    @IBAction func indietro(_ sender: UIButton) {
+        if (selection == "maria") {
+            selection = "montana"
+            
+        } else if (selection == "sia"){
+            selection = "maria"
+        }else if (selection == "montana"){
+            selection = "sia"
+    
+        }
+    }
+    
+    
+    @IBAction func avanti(_ sender:UIButton) {
+        if (selection == "maria") {
+            selection = "montana"
+            
+        } else if (selection == "sia"){
+            selection = "maria"
+        }else if (selection == "montana"){
+            selection = "sia"
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
     func playSound(nomeMp3:String) {
         
         print("#####")
