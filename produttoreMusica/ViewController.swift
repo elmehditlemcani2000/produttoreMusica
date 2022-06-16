@@ -17,15 +17,18 @@ class ViewController: UIViewController {
 
     @IBAction func sia(_ sender: Any) {
         selection = "sia"
+        
     }
     
     @IBAction func montana(_ sender: Any) {
         selection = "montana"
+        player.stop()
     }
     
     
     @IBAction func maria(_ sender: Any) {
         selection = "maria"
+        player.stop()
     }
     
     
@@ -57,17 +60,16 @@ class ViewController: UIViewController {
     @IBAction func avanti(_ sender:UIButton) {
         if (selection == "maria") {
             selection = "montana"
+            player.stop()
             
         } else if (selection == "sia"){
             selection = "maria"
+            player.stop()
         }else if (selection == "montana"){
             selection = "sia"
+            player.stop()
         }
     }
-    
-    
-    
-    
     
     
     
